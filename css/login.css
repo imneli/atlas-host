@@ -52,7 +52,7 @@ a:hover{
     transition: 0.5s all;
 }
 
-#login-btn-btn{
+#login-btn{
     border: 2px solid #5356FF;
     padding: 10px;
     border-radius: 15px;
@@ -77,4 +77,50 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+span{
+    color: #5356FF;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #5356FF;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    align-items: center;
 }

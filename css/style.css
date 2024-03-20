@@ -52,13 +52,13 @@ a:hover{
     transition: 0.5s all;
 }
 
-#inscreva-se-btn{
+#login-btn{
     border: 2px solid #5356FF;
     padding: 10px;
     border-radius: 15px;
 }
 
-#inscreva-se-btn:hover{
+#login-btn:hover{
     background-color: #5356FF;
     color: white;
 }
